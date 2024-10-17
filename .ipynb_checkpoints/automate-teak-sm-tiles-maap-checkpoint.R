@@ -37,7 +37,7 @@ extract_filename <- function(filepath){
 # use all available processor cores
 set_lidr_threads(0)
 
-filenames <- Sys.glob("inputs/*.las")
+filenames <- Sys.glob("input/*.las")
 
 filecount <- 0
 
@@ -103,7 +103,7 @@ for (file in filenames) {
      flas <- add_lasattribute_manual(flas, f_dt[,ID], name = "ID", desc = "tree ID", type = "int64", NA_value = 99999)
 
      print("saving file")
-     outfile <- paste0("outputs/", fname,".las")
+     outfile <- paste0("output/", fname,".las")
      writeLAS(flas, outfile)
      },
      error = function(e){
