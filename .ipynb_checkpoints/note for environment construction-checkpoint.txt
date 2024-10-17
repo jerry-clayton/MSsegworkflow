@@ -1,0 +1,3 @@
+add to yaml: pkg-config, libcurl
+
+r packages: need to install rgeos latest archived version and then install_github niknap/MeanShiftR
