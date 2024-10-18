@@ -26,7 +26,7 @@ input_path="$parent_path/input/$infile"
 outfile="segmented_merged_${infile}"
 output_path="$parent_path/input/$outfile"
 
-# echo "Running r package install script" 
+echo "Running r package install script" 
 # # Run script to install r-only packages
 # Rscript --verbose ${basedir}/run/create-ms-env.R
 
@@ -36,7 +36,7 @@ output_path="$parent_path/input/$outfile"
 #   exit 1
 # fi
 
-# echo "R package install script ran succedssfully."
+echo "R package install script ran succedssfully."
 echo "Running  MeanShift segmentation"
 # Run the R script
 Rscript --verbose ${basedir}/run/automate-teak-sm-tiles-maap.R "$input_path" "$output_path"

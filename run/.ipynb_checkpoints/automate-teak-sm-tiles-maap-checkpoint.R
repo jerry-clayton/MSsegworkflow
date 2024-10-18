@@ -1,3 +1,13 @@
+install.packages('lidR', repos="https://cloud.r-project.org")
+install.packages('devtools', repos="https://cloud.r-project.org")
+install.packages('data.table', repos="https://cloud.r-project.org")
+install.packages('sf', repos="https://cloud.r-project.org")
+library(devtools)
+install_version('rgeos','0.6-4', repos="https://cloud.r-project.org")
+install_github('niknap/MeanShiftR')
+
+
+
 ###
 # Set parameters for MS segmentation here
 #
@@ -18,66 +28,35 @@ library(MeanShiftR)
 library(data.table)
 library(sf)
 
-extract_filename <- function(filepath){
-	
-	return(strsplit(filepath, '/')[[1]][2])
 
-}
+args <- commandArgs(trailingOnly = TRUE)
+input_file <- args[1]
+output_file <- args[2]
 
-# args <- commandArgs(trailingOnly = TRUE)
-# # Check if arguments are provided
-# if (length(args) == 0) {
-#   stop("No arguments provided")
-# }
-# # Print the arguments
-# print(args)
-# # Example: Access individual arguments
-# arg1 <- args[1]
 
 # use all available processor cores
 set_lidr_threads(0)
 
-filenames <- Sys.glob("../input/*.las")
+# run MS on file
 
-filecount <- 0
-
-skipped <- list()
-
-# iterate over each file, sub-divide into point clouds
-# with user-defined plot width and buffers 
-# run MS on each file
-
-## probably need to break this down into functions.
-
-for (file in filenames) {
-     #file <- filepath
-     fname <- extract_filename(file)
-     print(paste0("trying file: ",fname))	
-     filecount = filecount + 1
-
-     f_head <- readLASheader(file)
-     f_las <- readLAS(file)
+f_head <- readLASheader(input_file)
+f_las <- readLAS(input_file)
 
      # if we want to subset (drop ground/near ground), do it here
      # but probably remember that I will need a new header if so.
      # but maybe not, cause just saving as NAs anyway
 
-     f_dt <- lidR::payload(f_las) %>% as.data.table
+f_dt <- lidR::payload(f_las) %>% as.data.table
      
-     point_clouds <- MeanShiftR::split_BufferedPointCloud(f_dt, plot.width = P_WIDTH, buffer.width = P_BUFFER)
-     print("Point cloud generation done")
+point_clouds <- MeanShiftR::split_BufferedPointCloud(f_dt, plot.width = P_WIDTH, buffer.width = P_BUFFER)
+print("Point cloud generation done")
 
-     lib_path <- .libPaths()[1]
+lib_path <- .libPaths()[1]
 
-     tryCatch(
-	      {
+tryCatch({
 	ms_result <- MeanShiftR::parallel_MeanShift(point_clouds, lib.path = lib_path, frac.cores = 0.9, version = 'classic', H2CW = H2CW, H2CL = H2CD,minz=MINZ)
 
-     # ms_result is a data.table
      print("Mean Shift segmentation done")
-     #ms_out <- paste0("intermediates/ms_result_",strsplit(fname,'\\.')[[1]][1],".rds")
-     #print(ms_out)
-     
      
      #10 point min
      byid <- ms_result[, .(.N), by = ID]
@@ -102,14 +81,21 @@ for (file in filenames) {
 
      flas <- add_lasattribute_manual(flas, f_dt[,ID], name = "ID", desc = "tree ID", type = "int64", NA_value = 99999)
 
-     print("saving file")
-     outfile <- paste0("../output/", fname,".las")
-     writeLAS(flas, outfile)
+
+
+### add merge code here
+
+
+
+
+
+
+    
+     print("saving file to")
+     writeLAS(flas, output_file)
      },
      error = function(e){
      	print(paste0("error in file: ", fname))
 	print(e)
      	skipped[file]
      })
-
-}
