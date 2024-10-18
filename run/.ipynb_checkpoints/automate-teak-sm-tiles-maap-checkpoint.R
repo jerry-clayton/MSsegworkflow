@@ -9,7 +9,7 @@ P_BUFFER <- 20
 # Height-to-crown-depth ratio for Mean Shift Algorithm
 H2CD <- 0.85
 # Height-to-crown-width ratio for Mean Shift Algorithm
-H2CW <- 0.20
+H2CW <- 0.15
 
 MINZ <- 1
 
@@ -37,7 +37,7 @@ extract_filename <- function(filepath){
 # use all available processor cores
 set_lidr_threads(0)
 
-filenames <- Sys.glob("input/*.las")
+filenames <- Sys.glob("../input/*.las")
 
 filecount <- 0
 
@@ -103,7 +103,7 @@ for (file in filenames) {
      flas <- add_lasattribute_manual(flas, f_dt[,ID], name = "ID", desc = "tree ID", type = "int64", NA_value = 99999)
 
      print("saving file")
-     outfile <- paste0("output/", fname,".las")
+     outfile <- paste0("../output/", fname,".las")
      writeLAS(flas, outfile)
      },
      error = function(e){
@@ -113,12 +113,3 @@ for (file in filenames) {
      })
 
 }
-## for post processing:
-
-## take results data table, do a group by ID (in tree seg notes), save to new dt (by_id)
-## do not save separately, just re-calculate in post-processing. 
-## subset the groupby to only IDs with at least X points (10). save to new dt
-
-## add maxZ to byID 
-print("Skipped files: ")
-print(skipped)
