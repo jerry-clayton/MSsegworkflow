@@ -12,11 +12,12 @@ if [[ $? -ne 0 ]]; then
   exit 1
 fi
 
+find .
 # Run script to install r-only packages
-Rscript --verbose create-ms-env.R
+Rscript --verbose MSsegworkflow/create-ms-env.R
 
 # Run the R script
-Rscript --verbose automate-teak-sm-tiles-maap.R
+Rscript --verbose MSsegworkflow/automate-teak-sm-tiles-maap.R
 
 # Check if the R script ran successfully
 if [[ $? -ne 0 ]]; then
@@ -24,7 +25,7 @@ if [[ $? -ne 0 ]]; then
   exit 1
 fi
 
-echo "R script ran successfully."
+echo "R script ran succedssfully."
 
 # Deactivate the conda environment (optional)
 conda deactivate
