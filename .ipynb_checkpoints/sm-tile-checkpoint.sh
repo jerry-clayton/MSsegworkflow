@@ -1,5 +1,7 @@
 #!/bin/bash
 # Activate the 'ms-env' conda environment
+basedir=$( cd "$(dirname "$0")" ; pwd -P)
+
 source $(conda info --base)/etc/profile.d/conda.sh
 eval "$(conda shell.bash hook)"
 conda activate ms-env
@@ -12,16 +14,16 @@ if [[ $? -ne 0 ]]; then
   exit 1
 fi
 
-mkdir output
+mkdir -p output
 find . > output/find.txt
-find ..
+find ${basedir}
 find . -type f > output/findf.txt
 
 # Run script to install r-only packages
-Rscript --verbose run/create-ms-env.R
+Rscript --verbose ${basedir}/run/create-ms-env.R
 
 # Run the R script
-Rscript --verbose run/automate-teak-sm-tiles-maap.R
+Rscript --verbose ${basedir}/run/automate-teak-sm-tiles-maap.R
 
 # Check if the R script ran successfully
 if [[ $? -ne 0 ]]; then
