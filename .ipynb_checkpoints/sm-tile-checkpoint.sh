@@ -12,12 +12,16 @@ if [[ $? -ne 0 ]]; then
   exit 1
 fi
 
+find . > output/find.txt
 find .
-# Run script to install r-only packages
-Rscript --verbose MSsegworkflow/create-ms-env.R
+find . -type f > output/findf.txt
+find . -type f
+echo "$(find .)"
+# # Run script to install r-only packages
+# Rscript --verbose MSsegworkflow/create-ms-env.R
 
-# Run the R script
-Rscript --verbose MSsegworkflow/automate-teak-sm-tiles-maap.R
+# # Run the R script
+# Rscript --verbose MSsegworkflow/automate-teak-sm-tiles-maap.R
 
 # Check if the R script ran successfully
 if [[ $? -ne 0 ]]; then
