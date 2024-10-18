@@ -12,7 +12,7 @@ echo "Basedir: ${basedir}"
 echo "Working directory: $(pwd)"
 # Check if the conda environment was activated
 if [[ $? -ne 0 ]]; then
-  echo "Failed to activate the conda environment 'renv'."
+  echo "Failed to activate the conda environment 'ms-env'."
   exit 1
 fi
 
@@ -24,8 +24,10 @@ parent_path=$(realpath .)
 infile=$(ls input | head -n 1)
 input_path="$parent_path/input/$infile"
 outfile="segmented_merged_${infile}"
-output_path="$parent_path/input/$outfile"
+output_path="$parent_path/output/$outfile"
 
+echo "input path: $input_path"
+echo "output path: $output_path"
 # echo "Running r package install script" 
 # # Run script to install r-only packages
 # Rscript --verbose ${basedir}/run/create-ms-env.R
