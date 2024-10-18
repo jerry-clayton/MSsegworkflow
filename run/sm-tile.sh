@@ -1,9 +1,8 @@
 #!/bin/bash
-
-# Activate the 'renv' conda environment
+# Activate the 'ms-env' conda environment
 source $(conda info --base)/etc/profile.d/conda.sh
 eval "$(conda shell.bash hook)"
-conda activate renv
+conda activate ms-env
 
 echo "Current Conda environment: $(conda info --envs | grep '*' | awk '{print $1}')"
 
@@ -13,8 +12,11 @@ if [[ $? -ne 0 ]]; then
   exit 1
 fi
 
-# Run the R script (replace 'your_script.R' with the actual script name)
-Rscript automate-teak-sm-tiles-maap.R
+# Run script to install r-only packages
+Rscript --verbose create-ms-env.R
+
+# Run the R script
+Rscript --verbose automate-teak-sm-tiles-maap.R
 
 # Check if the R script ran successfully
 if [[ $? -ne 0 ]]; then

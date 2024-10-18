@@ -6,5 +6,3 @@ set -euo pipefail
 basedir=$( cd "$(dirname "$0")" ; pwd -P)
 echo "Creating conda environment from ${basedir}/ms-env.yml"
 conda env create --name "ms-env" -f ${basedir}/ms-env.yml
-#conda env create -f ms-env.yml
-Rscript --verbose create-ms-env.R
