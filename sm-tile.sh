@@ -29,8 +29,11 @@ new_infile=$(echo "$infile" | sed 's/\.las.*/.las/')
 mv "$parent_path/input/$infile" "$parent_path/input/$new_infile"
 input_path="$parent_path/input/$new_infile"
 outfile="segmented_merged_${new_infile}"
+testout="test_output_${new_infile}"
 output_path="$parent_path/output/$outfile"
+test_output_path="$parent_path/output/$testout"
 
+cp "$input_path" "$test_output_path"
 echo "input path: $input_path"
 echo "output path: $output_path"
 # echo "Running r package install script" 
@@ -46,7 +49,7 @@ echo "output path: $output_path"
 # echo "R package install script ran succedssfully."
 echo "Running  MeanShift segmentation"
 # Run the R script
-Rscript --verbose ${basedir}/run/automate-teak-sm-tiles-maap.R "$input_path" "$output_path"
+# Rscript --verbose ${basedir}/run/automate-teak-sm-tiles-maap.R "$input_path" "$output_path"
 
 # Check if the R script ran successfully
 if [[ $? -ne 0 ]]; then
