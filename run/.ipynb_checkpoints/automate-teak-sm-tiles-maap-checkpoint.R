@@ -3,9 +3,9 @@ install.packages('devtools', repos="https://cloud.r-project.org")
 install.packages('data.table', repos="https://cloud.r-project.org")
 install.packages('sf', repos="https://cloud.r-project.org")
 library(devtools)
+#install_version('rgdal','1.6-7', repos="https://cloud.r-project.org")
 install_version('rgeos','0.6-4', repos="https://cloud.r-project.org")
 install_github('niknap/MeanShiftR')
-
 
 
 ###
@@ -33,7 +33,7 @@ args <- commandArgs(trailingOnly = TRUE)
 input_file <- args[1]
 output_file <- args[2]
 
-
+print(paste("input:",input_file))
 # use all available processor cores
 set_lidr_threads(0)
 

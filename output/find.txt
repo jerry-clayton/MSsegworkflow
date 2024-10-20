@@ -58,6 +58,8 @@
 ./.git/objects/bb
 ./.git/objects/bb/184f9c3aa41baec5f3b987b11ce1dbf7066b5a
 ./.git/objects/bb/49b4d0e1056882522d079d6b2f69acf33bc681
+./.git/objects/31
+./.git/objects/31/cff0d996914074e85e5930bef8c6bcd4866370
 ./.git/objects/d0
 ./.git/objects/d0/b8083316d437d86b68b082630ce689a701567a
 ./.git/objects/9c
@@ -80,6 +82,8 @@
 ./.git/objects/b0/5c5de6e7f6be36b6f968f6cc1558fc884ee74c
 ./.git/objects/11
 ./.git/objects/11/bf46ad54ec3f9487ab92495ecb747b5bd652e6
+./.git/objects/28
+./.git/objects/28/13322a5152bbc4e026a32c1d31fd8a3595fd46
 ./.git/objects/c7
 ./.git/objects/c7/9b4dc59b931cb57abde05d84372c8b58e34b26
 ./.git/objects/64
@@ -88,6 +92,8 @@
 ./.git/objects/8b/6392deeb99494dd444c96cedbb8f378c26912e
 ./.git/objects/ee
 ./.git/objects/ee/351f42079edb7bafbc08ff42d7a6aabb408c9a
+./.git/objects/b8
+./.git/objects/b8/02f773e9fa273e46d574d9297c041e63169605
 ./.git/objects/24
 ./.git/objects/24/daf5ac6b8e2603a3597164eb4f9c179f5edc9b
 ./.git/objects/60
@@ -109,9 +115,12 @@
 ./.git/objects/f0
 ./.git/objects/f0/c03f9b12408a8590e12f76ef1a8b4aa204f3b1
 ./.git/objects/9e
+./.git/objects/9e/d408cced16351335728b25b6882d89491184c0
 ./.git/objects/9e/a145aaec20fad6efd19f5b038b841a991854f4
 ./.git/objects/8f
 ./.git/objects/8f/6e7b53c0262f88329bf2001ffe116564d6e2d5
+./.git/objects/95
+./.git/objects/95/5094c3f68bcf4a2cd663cca8b521d2218525dd
 ./.git/objects/98
 ./.git/objects/98/f23661bb77830af36d594f5e2a15e13bbee6f4
 ./.git/objects/01
@@ -124,6 +133,7 @@
 ./.git/objects/a8/b6d5403c9f8274b000a0827a9c0716c8a3b8ac
 ./.git/objects/a8/8198e5bbd0765b1cf2eb20b8055991fe073bb2
 ./.git/objects/5d
+./.git/objects/5d/d0b905c731437e8be34013951ce88e0fc4a01b
 ./.git/objects/5d/6a3d45273b2780996832683621e36681a0e5bd
 ./.git/objects/ed
 ./.git/objects/ed/df6890a0d7532e3a7be5ac54b5e1248fcc4dcd
@@ -144,6 +154,8 @@
 ./.git/objects/1d
 ./.git/objects/1d/4271e2b6b1c435afa94eb08bd844b2e256ceb7
 ./.git/objects/1d/e394e539831ab8fa88f2b83f85994a182d210f
+./.git/objects/41
+./.git/objects/41/36b2170edf7c522625e65de89c9a4ece1c3405
 ./.git/objects/d1
 ./.git/objects/d1/9b5ea01710ff963d5af792cad82da255a75fd6
 ./.git/objects/4a
@@ -167,6 +179,8 @@
 ./.git/objects/21/fe860a4ab53f372709954bb260b6e5e3f7f79f
 ./.git/objects/a2
 ./.git/objects/a2/709f8a4f1d6a3b28903f5ebb3c39ebe536fee4
+./.git/objects/03
+./.git/objects/03/9778c25c895aa4b7733d97420efe2b9297d562
 ./.git/objects/30
 ./.git/objects/30/007c42740601769f4be82a3b07101550f0cb4a
 ./.git/objects/12
@@ -201,6 +215,10 @@
 ./.git/objects/c4/b5f8e58ce711eb322f876fa61ab1434f65a3c9
 ./.git/objects/61
 ./.git/objects/61/429e24c4e2776dc08ba10d7e89dde12e08b172
+./.git/objects/a6
+./.git/objects/a6/e800cc811dfc42fd950d926a01d91ece4f5267
+./.git/objects/07
+./.git/objects/07/c2ba56291147f04c219c1cb46b427341d8f708
 ./.git/objects/be
 ./.git/objects/be/87f25310304ae8e209b77436ae582848e9738d
 ./.git/objects/e2
@@ -219,6 +237,8 @@
 ./.git/objects/16/93244745ff8ca0c033e2147282169e8cb6b797
 ./.git/objects/6a
 ./.git/objects/6a/41408d504f5cea8695c010f3b51f285b69a931
+./.git/objects/9f
+./.git/objects/9f/705ef66a3f439e64c547c69207754b83bf5939
 ./.git/objects/pack
 ./.git/objects/pack/pack-b0ed55b0bb99bcbe837711b02b83ca8847854ee0.pack
 ./.git/objects/pack/pack-b0ed55b0bb99bcbe837711b02b83ca8847854ee0.idx
@@ -252,6 +272,7 @@
 ./testrun.sh
 ./output
 ./output/norm_TEAK_045_lidar_2021.las.las
+./output/segmented_merged_norm_TEAK_045_lidar_2021.las
 ./output/find.txt
 ./r_packages_renv_archive.txt
 ./run

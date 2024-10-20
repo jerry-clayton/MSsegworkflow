@@ -22,8 +22,13 @@ find . > output/find.txt
 # find . -type f > output/findf.txt
 parent_path=$(realpath .)
 infile=$(ls input | head -n 1)
-input_path="$parent_path/input/$infile"
-outfile="segmented_merged_${infile}"
+
+# Extract the base filename by removing everything after ".las"
+new_infile=$(echo "$infile" | sed 's/\.las.*/.las/')
+# Rename the file to just "filename.las"
+mv "$parent_path/input/$infile" "$parent_path/input/$new_infile"
+input_path="$parent_path/input/$new_infile"
+outfile="segmented_merged_${new_infile}"
 output_path="$parent_path/output/$outfile"
 
 echo "input path: $input_path"
