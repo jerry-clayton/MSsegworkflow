@@ -275,7 +275,7 @@ tryCatch({
 
      # write, and then read, the LAS file;
      # this makes it more straightforward to save the IDs after merging, and it enables us to reclaim all the memory used to generate the tree IDs
-     writeLAS(flas, seg_only_output)
+     writeLAS(flas, output_file)
 
      print("segmented las written")
 
