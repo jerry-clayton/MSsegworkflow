@@ -9,18 +9,24 @@ install_github('niknap/MeanShiftR')
 
 
 ###
-# Set parameters for MS segmentation here
-#
+# Set parameters for MS segmentation from command line args
+# Leaving ms parameters hardcoded for now intentionally; they are set for this site already. 
 ###
+
+
+args <- commandArgs(trailingOnly = TRUE)
+input_file <- args[1]
+output_file <- args[2]
+
 # Plot width for subplots
-P_WIDTH <- 200
+P_WIDTH <- as.numeric(args[3])
 # Plot buffer for subplots
-P_BUFFER <- 20
+P_BUFFER <- as.numeric(args[4])
 # Height-to-crown-depth ratio for Mean Shift Algorithm
 H2CD <- 0.85
 # Height-to-crown-width ratio for Mean Shift Algorithm
 H2CW <- 0.15
-
+# Minimum Z coordinate. Everything below this is discarded before running segmentation. 
 MINZ <- 1
 
 library(lidR)
@@ -29,11 +35,8 @@ library(data.table)
 library(sf)
 
 
-args <- commandArgs(trailingOnly = TRUE)
-input_file <- args[1]
-output_file <- args[2]
-
 print(paste("input:",input_file))
+
 # use all available processor cores
 set_lidr_threads(0)
 
@@ -220,37 +223,41 @@ mergeBelowThreshold <- function(head, las, heightThreshold){
 #####
 
 
+###
+##   Begin running AMS3D on file
+###
 
-# run MS on file
-
+# read header and file separately so that we can save the LAS later
 f_head <- readLASheader(input_file)
 f_las <- readLAS(input_file)
 
-     # if we want to subset (drop ground/near ground), do it here
-     # but probably remember that I will need a new header if so.
-     # but maybe not, cause just saving as NAs anyway
-
+# convert LAS to data.table for MeanShiftR package
 f_dt <- lidR::payload(f_las) %>% as.data.table
-     
+
+# subdivide the point cloud to parallelize
 point_clouds <- MeanShiftR::split_BufferedPointCloud(f_dt, plot.width = P_WIDTH, buffer.width = P_BUFFER)
 print("Point cloud generation done")
 
+# this just has to be here
 lib_path <- .libPaths()[1]
 
+# catch errors in files
 tryCatch({
+  # important that we only use 90% of the available processor cores to prevent crashing
+    
 	ms_result <- MeanShiftR::parallel_MeanShift(point_clouds, lib.path = lib_path, frac.cores = 0.9, version = 'classic', H2CW = H2CW, H2CL = H2CD,minz=MINZ)
 
      print("Mean Shift segmentation done")
      
-     #10 point min
+     # assert 10 point minimum for segmented trees; drop everything with fewer than 10
      byid <- ms_result[, .(.N), by = ID]
      g10 <- byid[N>10,,]
      tg10 <- ms_result[ID %in% g10$ID]
      ms_result <- tg10 
      
-     #saveRDS(ms_result,ms_out)
      print("joining ms result to original data")
-     # make IDs from xyz coords
+     
+    # make IDs from xyz coords
      f_dt[, concat := paste(X,Y,Z, sep = "_")]
      ms_result[, concat := paste(X,Y,Z, sep = "_")]
 
@@ -261,18 +268,43 @@ tryCatch({
      f_dt[ms_result, on = "concat", ID := ID]
  
      # save meanshift-generated IDs to LAS format
+     # specifically: use original header with updated data and then force the header to update with add_lasattribute_manual()
      flas <- LAS(f_dt, f_head)
      flas <- add_lasattribute_manual(flas, f_dt[,ID], name = "ID", desc = "tree ID", type = "int64", NA_value = 99999)
 
+
+     # write, and then read, the LAS file;
+     # this makes it more straightforward to save the IDs after merging, and it enables us to reclaim all the memory used to generate the tree IDs
+     writeLAS(flas, seg_only_output)
+
+     print("segmented las written")
+
+##### 
+##   End AMS3D segmentation, begin merging
+#####
+     # clear all objects but retain functions,
+     # run garbage collection to ensure memory is reclaimed 
+     rm(list = ls()[sapply(ls(), function(x) !is.function(get(x)))])
+     gc()
+    
+     # reload the command line file args                      
+     args <- commandArgs(trailingOnly = TRUE)
+     input_file <- args[1]
+     output_file <- args[2]
+
+                           
+     flas <- readLAS(output_file)
+     f_head <- readLASheader(output_file)
+    
      # merge trees from segmented las
      mergedLAS <- mergeBelowThreshold(f_head, flas, 100)
-
     
      print("saving merged file")
+     # overwrite the earlier segmentation with our merged result
      writeLAS(mergedLAS, output_file)
      },
      error = function(e){
-     	print(paste0("error in file: ", fname))
+     	print("error in file:")
 	print(e)
-     	skipped[file]
+     	skipped[input_file]
      })

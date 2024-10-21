@@ -1,4 +1,9 @@
 #!/bin/bash
+
+#get command arguments to pass to rscript
+subplot_width=$1
+subplot_buffer=$2
+
 # Activate the 'ms-env' conda environment
 basedir=$( cd "$(dirname "$0")" ; pwd -P)
 
@@ -49,7 +54,7 @@ echo "output path: $output_path"
 # echo "R package install script ran succedssfully."
 echo "Running  MeanShift segmentation"
 # Run the R script
-Rscript --verbose ${basedir}/run/automate-teak-sm-tiles-maap.R "$input_path" "$output_path"
+Rscript --verbose ${basedir}/run/automate-teak-sm-tiles-maap.R "$input_path" "$output_path" "$subplot_width" "$subplot_buffer"
 
 # Check if the R script ran successfully
 if [[ $? -ne 0 ]]; then
