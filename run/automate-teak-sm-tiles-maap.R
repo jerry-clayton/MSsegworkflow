@@ -22,6 +22,10 @@ output_file <- args[2]
 P_WIDTH <- as.numeric(args[3])
 # Plot buffer for subplots
 P_BUFFER <- as.numeric(args[4])
+
+#Fraction of Cores to use
+FRAC.CORES <- args[5]
+
 # Height-to-crown-depth ratio for Mean Shift Algorithm
 H2CD <- 0.85
 # Height-to-crown-width ratio for Mean Shift Algorithm
@@ -245,7 +249,7 @@ lib_path <- .libPaths()[1]
 tryCatch({
   # important that we only use 90% of the available processor cores to prevent crashing
     
-	ms_result <- MeanShiftR::parallel_MeanShift(point_clouds, lib.path = lib_path, frac.cores = 0.9, version = 'classic', H2CW = H2CW, H2CL = H2CD,minz=MINZ)
+	ms_result <- MeanShiftR::parallel_MeanShift(point_clouds, lib.path = lib_path, frac.cores = FRAC.CORES, version = 'classic', H2CW = H2CW, H2CL = H2CD,minz=MINZ)
 
      print("Mean Shift segmentation done")
      
