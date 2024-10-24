@@ -24,7 +24,7 @@ P_WIDTH <- as.numeric(args[3])
 P_BUFFER <- as.numeric(args[4])
 
 #Fraction of Cores to use
-FRAC.CORES <- args[5]
+FRAC.CORES <- as.numeric(args[5])
 
 # Height-to-crown-depth ratio for Mean Shift Algorithm
 H2CD <- 0.85
