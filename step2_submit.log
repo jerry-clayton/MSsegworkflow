@@ -1,0 +1,467 @@
+2024-11-21 22:46:02 - Starting new model run at MAAP at 2024-11-21 22:46:02.030234.
+2024-11-21 22:46:53 - Starting new model run at MAAP at 2024-11-21 22:46:53.138569.
+2024-11-21 22:49:55 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_179_job_ids.pkl
+2024-11-21 22:49:55 - submitted 1600 in 182.625551 seconds, 8.76109608561838 s/job
+2024-11-21 22:49:55 - submitted 1600 in total in 182.626665 seconds, 8.761042644019152 s/job
+2024-11-21 22:49:55 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_100_job_ids.pkl
+2024-11-21 22:49:55 - submitted 0 in 0.145241 seconds, 0.0 s/job
+2024-11-21 22:49:55 - submitted 1600 in total in 182.771906 seconds, 8.75408061893276 s/job
+2024-11-21 22:49:56 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_001_job_ids.pkl
+2024-11-21 22:49:56 - submitted 0 in 0.123485 seconds, 0.0 s/job
+2024-11-21 22:49:56 - submitted 1600 in total in 182.895391 seconds, 8.748170149350566 s/job
+2024-11-21 22:51:59 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_090_job_ids.pkl
+2024-11-21 22:51:59 - submitted 1088 in 123.706101 seconds, 8.795039138772953 s/job
+2024-11-21 22:51:59 - submitted 2688 in total in 306.601492 seconds, 8.767080624643535 s/job
+2024-11-21 22:55:01 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_171_job_ids.pkl
+2024-11-21 22:55:01 - submitted 1600 in 181.702116 seconds, 8.805621173943841 s/job
+2024-11-21 22:55:01 - submitted 4288 in total in 488.303608 seconds, 8.781421905856572 s/job
+2024-11-21 22:57:39 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_018_job_ids.pkl
+2024-11-21 22:57:39 - submitted 1394 in 158.024165 seconds, 8.82143563296158 s/job
+2024-11-21 22:57:39 - submitted 5682 in total in 646.327773 seconds, 8.791205077922593 s/job
+2024-11-21 23:00:41 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_135_job_ids.pkl
+2024-11-21 23:00:41 - submitted 1600 in 182.00395 seconds, 8.791017997136874 s/job
+2024-11-21 23:00:41 - submitted 7282 in total in 828.331723 seconds, 8.791163971876518 s/job
+2024-11-21 23:03:44 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_054_job_ids.pkl
+2024-11-21 23:03:44 - submitted 1600 in 182.902206 seconds, 8.747844189479048 s/job
+2024-11-21 23:03:44 - submitted 8882 in total in 1011.233929 seconds, 8.78332870890055 s/job
+2024-11-21 23:06:49 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_117_job_ids.pkl
+2024-11-21 23:06:49 - submitted 1600 in 185.0301 seconds, 8.647241719050035 s/job
+2024-11-21 23:06:49 - submitted 10482 in total in 1196.264029 seconds, 8.762279685666282 s/job
+2024-11-21 23:09:54 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_036_job_ids.pkl
+2024-11-21 23:09:54 - submitted 1600 in 184.855204 seconds, 8.655423084545676 s/job
+2024-11-21 23:09:54 - submitted 12082 in total in 1381.119233 seconds, 8.747977518027946 s/job
+2024-11-21 23:12:59 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_153_job_ids.pkl
+2024-11-21 23:12:59 - submitted 1600 in 184.985986 seconds, 8.649303845103164 s/job
+2024-11-21 23:12:59 - submitted 13682 in total in 1566.105219 seconds, 8.736322332631214 s/job
+2024-11-21 23:16:09 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_072_job_ids.pkl
+2024-11-21 23:16:09 - submitted 1600 in 190.587922 seconds, 8.39507552844823 s/job
+2024-11-21 23:16:09 - submitted 15282 in total in 1756.693141 seconds, 8.699299634824499 s/job
+2024-11-21 23:19:14 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_180_job_ids.pkl
+2024-11-21 23:19:14 - submitted 1600 in 185.026373 seconds, 8.647415901083463 s/job
+2024-11-21 23:19:14 - submitted 16882 in total in 1941.719514 seconds, 8.694355635960303 s/job
+2024-11-21 23:22:20 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_108_job_ids.pkl
+2024-11-21 23:22:20 - submitted 1600 in 185.646669 seconds, 8.618522533253747 s/job
+2024-11-21 23:22:20 - submitted 18482 in total in 2127.366183 seconds, 8.687737986855081 s/job
+2024-11-21 23:25:27 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_027_job_ids.pkl
+2024-11-21 23:25:27 - submitted 1600 in 186.702231 seconds, 8.569795826381956 s/job
+2024-11-21 23:25:27 - submitted 20082 in total in 2314.068414 seconds, 8.678222250692714 s/job
+2024-11-21 23:28:35 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_144_job_ids.pkl
+2024-11-21 23:28:35 - submitted 1600 in 187.862786 seconds, 8.516854423738824 s/job
+2024-11-21 23:28:35 - submitted 21682 in total in 2501.9312 seconds, 8.666105606740905 s/job
+2024-11-21 23:28:35 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_063_job_ids.pkl
+2024-11-21 23:28:35 - submitted 0 in 0.123114 seconds, 0.0 s/job
+2024-11-21 23:28:35 - submitted 21682 in total in 2502.054314 seconds, 8.665679189568545 s/job
+2024-11-21 23:31:43 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_126_job_ids.pkl
+2024-11-21 23:31:43 - submitted 1600 in 188.130905 seconds, 8.504716436674771 s/job
+2024-11-21 23:31:43 - submitted 23282 in total in 2690.185219 seconds, 8.65442269014266 s/job
+2024-11-21 23:34:46 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_045_job_ids.pkl
+2024-11-21 23:34:46 - submitted 1566 in 183.598838 seconds, 8.529465747490189 s/job
+2024-11-21 23:34:46 - submitted 24848 in total in 2873.784057 seconds, 8.646439505249159 s/job
+2024-11-21 23:37:53 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_162_job_ids.pkl
+2024-11-21 23:37:53 - submitted 1600 in 187.017043 seconds, 8.555370004433232 s/job
+2024-11-21 23:37:53 - submitted 26448 in total in 3060.8011 seconds, 8.640875096392248 s/job
+2024-11-21 23:37:54 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_081_job_ids.pkl
+2024-11-21 23:37:54 - submitted 0 in 0.109011 seconds, 0.0 s/job
+2024-11-21 23:37:54 - submitted 26448 in total in 3060.910111 seconds, 8.640567360979912 s/job
+2024-11-21 23:40:58 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_168_job_ids.pkl
+2024-11-21 23:40:58 - submitted 1600 in 184.157478 seconds, 8.688216288452864 s/job
+2024-11-21 23:40:58 - submitted 28048 in total in 3245.067589 seconds, 8.643271436032945 s/job
+2024-11-21 23:44:01 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_087_job_ids.pkl
+2024-11-21 23:44:01 - submitted 1600 in 183.352953 seconds, 8.726338866219406 s/job
+2024-11-21 23:44:01 - submitted 29648 in total in 3428.420542 seconds, 8.647713906971452 s/job
+2024-11-21 23:47:03 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_186_job_ids.pkl
+2024-11-21 23:47:03 - submitted 1600 in 182.232525 seconds, 8.779991387377198 s/job
+2024-11-21 23:47:03 - submitted 31248 in total in 3610.653067 seconds, 8.654390056357082 s/job
+2024-11-21 23:50:10 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_069_job_ids.pkl
+2024-11-21 23:50:10 - submitted 1600 in 186.622288 seconds, 8.57346685193357 s/job
+2024-11-21 23:50:10 - submitted 32848 in total in 3797.275355 seconds, 8.650412974857863 s/job
+2024-11-21 23:50:10 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_177_job_ids.pkl
+2024-11-21 23:50:10 - submitted 0 in 0.122614 seconds, 0.0 s/job
+2024-11-21 23:50:10 - submitted 32848 in total in 3797.397969 seconds, 8.650133662090237 s/job
+2024-11-21 23:53:10 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_096_job_ids.pkl
+2024-11-21 23:53:10 - submitted 1600 in 180.252726 seconds, 8.876426090776569 s/job
+2024-11-21 23:53:10 - submitted 34448 in total in 3977.650695 seconds, 8.660388415529283 s/job
+2024-11-21 23:56:15 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_159_job_ids.pkl
+2024-11-21 23:56:15 - submitted 1600 in 184.446701 seconds, 8.674592667287664 s/job
+2024-11-21 23:56:15 - submitted 36048 in total in 4162.097396 seconds, 8.66101788839542 s/job
+2024-11-21 23:59:20 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_078_job_ids.pkl
+2024-11-21 23:59:20 - submitted 1600 in 185.550664 seconds, 8.622981807276098 s/job
+2024-11-21 23:59:20 - submitted 37648 in total in 4347.64806 seconds, 8.659394569301913 s/job
+2024-11-22 00:02:09 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_016_job_ids.pkl
+2024-11-22 00:02:09 - submitted 1459 in 169.074418 seconds, 8.62933622518813 s/job
+2024-11-22 00:02:09 - submitted 39107 in total in 4516.722478 seconds, 8.658269395669521 s/job
+2024-11-22 00:05:17 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_133_job_ids.pkl
+2024-11-22 00:05:17 - submitted 1600 in 187.413294 seconds, 8.537281245374194 s/job
+2024-11-22 00:05:17 - submitted 40707 in total in 4704.135772 seconds, 8.653449214263029 s/job
+2024-11-22 00:08:25 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_052_job_ids.pkl
+2024-11-22 00:08:25 - submitted 1600 in 188.018576 seconds, 8.509797457459735 s/job
+2024-11-22 00:08:25 - submitted 42307 in total in 4892.154348 seconds, 8.647928293042483 s/job
+2024-11-22 00:11:34 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_115_job_ids.pkl
+2024-11-22 00:11:34 - submitted 1600 in 189.125774 seconds, 8.459978596042653 s/job
+2024-11-22 00:11:34 - submitted 43907 in total in 5081.280122 seconds, 8.64093278579535 s/job
+2024-11-22 00:14:41 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_034_job_ids.pkl
+2024-11-22 00:14:41 - submitted 1600 in 186.77103 seconds, 8.566639055318161 s/job
+2024-11-22 00:14:41 - submitted 45507 in total in 5268.051152 seconds, 8.638298810504793 s/job
+2024-11-22 00:17:48 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_151_job_ids.pkl
+2024-11-22 00:17:48 - submitted 1600 in 187.328432 seconds, 8.54114873496619 s/job
+2024-11-22 00:17:48 - submitted 47107 in total in 5455.379584 seconds, 8.63496284257825 s/job
+2024-11-22 00:20:56 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_070_job_ids.pkl
+2024-11-22 00:20:56 - submitted 1600 in 188.213945 seconds, 8.50096415544555 s/job
+2024-11-22 00:20:56 - submitted 48707 in total in 5643.593529 seconds, 8.630493983968845 s/job
+2024-11-22 00:24:05 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_106_job_ids.pkl
+2024-11-22 00:24:05 - submitted 1600 in 188.640038 seconds, 8.481762498372694 s/job
+2024-11-22 00:24:05 - submitted 50307 in total in 5832.233567 seconds, 8.625683354769526 s/job
+2024-11-22 00:24:05 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_025_job_ids.pkl
+2024-11-22 00:24:05 - submitted 0 in 0.129973 seconds, 0.0 s/job
+2024-11-22 00:24:05 - submitted 50307 in total in 5832.36354 seconds, 8.625491133222466 s/job
+2024-11-22 00:27:16 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_142_job_ids.pkl
+2024-11-22 00:27:16 - submitted 1600 in 190.686804 seconds, 8.3907222022558 s/job
+2024-11-22 00:27:16 - submitted 51907 in total in 6023.050344 seconds, 8.618058464629696 s/job
+2024-11-22 00:30:25 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_061_job_ids.pkl
+2024-11-22 00:30:25 - submitted 1600 in 189.781633 seconds, 8.430742083455463 s/job
+2024-11-22 00:30:25 - submitted 53507 in total in 6212.831977 seconds, 8.612336563757678 s/job
+2024-11-22 00:33:35 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_124_job_ids.pkl
+2024-11-22 00:33:35 - submitted 1600 in 189.086654 seconds, 8.461728874846978 s/job
+2024-11-22 00:33:35 - submitted 55107 in total in 6401.918631 seconds, 8.607888224813648 s/job
+2024-11-22 00:33:35 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_043_job_ids.pkl
+2024-11-22 00:33:35 - submitted 0 in 0.146548 seconds, 0.0 s/job
+2024-11-22 00:33:35 - submitted 55107 in total in 6402.065179 seconds, 8.607691183895083 s/job
+2024-11-22 00:36:45 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_160_job_ids.pkl
+2024-11-22 00:36:45 - submitted 1600 in 190.514822 seconds, 8.398296695256603 s/job
+2024-11-22 00:36:45 - submitted 56707 in total in 6592.580001 seconds, 8.601640024299797 s/job
+2024-11-22 00:36:45 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_007_job_ids.pkl
+2024-11-22 00:36:45 - submitted 0 in 0.138842 seconds, 0.0 s/job
+2024-11-22 00:36:45 - submitted 56707 in total in 6592.718843 seconds, 8.601458874620478 s/job
+2024-11-22 00:39:54 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_030_job_ids.pkl
+2024-11-22 00:39:54 - submitted 1600 in 188.565392 seconds, 8.485120111541995 s/job
+2024-11-22 00:39:54 - submitted 58307 in total in 6781.284235 seconds, 8.59822387315107 s/job
+2024-11-22 00:43:03 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_111_job_ids.pkl
+2024-11-22 00:43:03 - submitted 1600 in 189.433303 seconds, 8.446244533887477 s/job
+2024-11-22 00:43:03 - submitted 59907 in total in 6970.717538 seconds, 8.594093746221166 s/job
+2024-11-22 00:45:44 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_021_job_ids.pkl
+2024-11-22 00:45:44 - submitted 1356 in 160.583945 seconds, 8.444181639702524 s/job
+2024-11-22 00:45:44 - submitted 61263 in total in 7131.301483 seconds, 8.59071799811608 s/job
+2024-11-22 00:48:51 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_102_job_ids.pkl
+2024-11-22 00:48:51 - submitted 1578 in 187.510534 seconds, 8.41552720446095 s/job
+2024-11-22 00:48:51 - submitted 62841 in total in 7318.812017 seconds, 8.58622954846143 s/job
+2024-11-22 00:48:52 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_120_job_ids.pkl
+2024-11-22 00:48:52 - submitted 0 in 0.123159 seconds, 0.0 s/job
+2024-11-22 00:48:52 - submitted 62841 in total in 7318.935176 seconds, 8.586085064131465 s/job
+2024-11-22 00:48:52 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_003_job_ids.pkl
+2024-11-22 00:48:52 - submitted 0 in 0.145158 seconds, 0.0 s/job
+2024-11-22 00:48:52 - submitted 62841 in total in 7319.080334 seconds, 8.585914777855203 s/job
+2024-11-22 00:52:01 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_092_job_ids.pkl
+2024-11-22 00:52:01 - submitted 1600 in 189.093127 seconds, 8.461439214551675 s/job
+2024-11-22 00:52:01 - submitted 64441 in total in 7508.173461 seconds, 8.582779864467492 s/job
+2024-11-22 00:55:10 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_173_job_ids.pkl
+2024-11-22 00:55:10 - submitted 1600 in 189.166926 seconds, 8.458138184261662 s/job
+2024-11-22 00:55:10 - submitted 66041 in total in 7697.340387 seconds, 8.579716717677748 s/job
+2024-11-22 00:58:18 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_056_job_ids.pkl
+2024-11-22 00:58:18 - submitted 1600 in 188.095255 seconds, 8.50632834943125 s/job
+2024-11-22 00:58:18 - submitted 67641 in total in 7885.435642 seconds, 8.577966148087674 s/job
+2024-11-22 01:01:28 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_137_job_ids.pkl
+2024-11-22 01:01:28 - submitted 1600 in 189.764524 seconds, 8.431502191631983 s/job
+2024-11-22 01:01:28 - submitted 69241 in total in 8075.200166 seconds, 8.574524293717674 s/job
+2024-11-22 01:04:37 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_038_job_ids.pkl
+2024-11-22 01:04:37 - submitted 1600 in 189.301103 seconds, 8.452143039018637 s/job
+2024-11-22 01:04:37 - submitted 70841 in total in 8264.501269 seconds, 8.571721111075796 s/job
+2024-11-22 01:04:37 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_119_job_ids.pkl
+2024-11-22 01:04:37 - submitted 0 in 0.122468 seconds, 0.0 s/job
+2024-11-22 01:04:37 - submitted 70841 in total in 8264.623737 seconds, 8.57159409240266 s/job
+2024-11-22 01:07:47 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_074_job_ids.pkl
+2024-11-22 01:07:47 - submitted 1600 in 189.780938 seconds, 8.4307729578194 s/job
+2024-11-22 01:07:47 - submitted 72441 in total in 8454.404675 seconds, 8.56843299850678 s/job
+2024-11-22 01:10:56 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_155_job_ids.pkl
+2024-11-22 01:10:56 - submitted 1600 in 189.003535 seconds, 8.465450130337508 s/job
+2024-11-22 01:10:56 - submitted 74041 in total in 8643.40821 seconds, 8.56618109443659 s/job
+2024-11-22 01:14:08 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_029_job_ids.pkl
+2024-11-22 01:14:08 - submitted 1600 in 191.818367 seconds, 8.341224174846614 s/job
+2024-11-22 01:14:08 - submitted 75641 in total in 8835.226577 seconds, 8.561297137179237 s/job
+2024-11-22 01:17:19 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_182_job_ids.pkl
+2024-11-22 01:17:19 - submitted 1600 in 191.540317 seconds, 8.353332734643015 s/job
+2024-11-22 01:17:19 - submitted 77241 in total in 9026.766894 seconds, 8.556884309413297 s/job
+2024-11-22 01:20:37 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_065_job_ids.pkl
+2024-11-22 01:20:37 - submitted 1600 in 197.573438 seconds, 8.098254584201749 s/job
+2024-11-22 01:20:37 - submitted 78841 in total in 9224.340332 seconds, 8.547061053948113 s/job
+2024-11-22 01:23:54 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_146_job_ids.pkl
+2024-11-22 01:23:54 - submitted 1600 in 196.837651 seconds, 8.128526183235138 s/job
+2024-11-22 01:23:54 - submitted 80441 in total in 9421.177983 seconds, 8.538316561384509 s/job
+2024-11-22 01:27:07 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_047_job_ids.pkl
+2024-11-22 01:27:07 - submitted 1600 in 192.905345 seconds, 8.29422326270949 s/job
+2024-11-22 01:27:07 - submitted 82041 in total in 9614.083328 seconds, 8.533418860752358 s/job
+2024-11-22 01:30:22 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_128_job_ids.pkl
+2024-11-22 01:30:22 - submitted 1600 in 195.234177 seconds, 8.195286422622614 s/job
+2024-11-22 01:30:22 - submitted 83641 in total in 9809.317505 seconds, 8.526689033907461 s/job
+2024-11-22 01:33:33 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_083_job_ids.pkl
+2024-11-22 01:33:33 - submitted 1563 in 190.705073 seconds, 8.195901532205177 s/job
+2024-11-22 01:33:33 - submitted 85204 in total in 10000.022578 seconds, 8.520380762684313 s/job
+2024-11-22 01:36:49 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_164_job_ids.pkl
+2024-11-22 01:36:49 - submitted 1600 in 196.405869 seconds, 8.146396073327116 s/job
+2024-11-22 01:36:49 - submitted 86804 in total in 10196.428447 seconds, 8.513176986549592 s/job
+2024-11-22 01:40:06 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_167_job_ids.pkl
+2024-11-22 01:40:06 - submitted 1600 in 196.469889 seconds, 8.14374155828021 s/job
+2024-11-22 01:40:06 - submitted 88404 in total in 10392.898336 seconds, 8.506193088965091 s/job
+2024-11-22 01:43:22 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_086_job_ids.pkl
+2024-11-22 01:43:22 - submitted 1600 in 196.2782 seconds, 8.151694890211955 s/job
+2024-11-22 01:43:22 - submitted 90004 in total in 10589.176536 seconds, 8.499622203295374 s/job
+2024-11-22 01:46:37 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_149_job_ids.pkl
+2024-11-22 01:46:37 - submitted 1600 in 195.553075 seconds, 8.181921966709037 s/job
+2024-11-22 01:46:37 - submitted 91604 in total in 10784.729611 seconds, 8.493861534235176 s/job
+2024-11-22 01:49:59 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_068_job_ids.pkl
+2024-11-22 01:49:59 - submitted 1600 in 201.298397 seconds, 7.948399112189652 s/job
+2024-11-22 01:49:59 - submitted 93204 in total in 10986.028008 seconds, 8.483866956476815 s/job
+2024-11-22 01:53:18 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_185_job_ids.pkl
+2024-11-22 01:53:18 - submitted 1600 in 199.013708 seconds, 8.03964719857388 s/job
+2024-11-22 01:53:18 - submitted 94804 in total in 11185.041716 seconds, 8.475963023399778 s/job
+2024-11-22 01:56:39 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_059_job_ids.pkl
+2024-11-22 01:56:39 - submitted 1600 in 201.092487 seconds, 7.956537928739227 s/job
+2024-11-22 01:56:39 - submitted 96404 in total in 11386.134203 seconds, 8.46678936689501 s/job
+2024-11-22 01:56:39 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_176_job_ids.pkl
+2024-11-22 01:56:39 - submitted 0 in 0.137597 seconds, 0.0 s/job
+2024-11-22 01:56:39 - submitted 96404 in total in 11386.2718 seconds, 8.46668705027751 s/job
+2024-11-22 01:59:58 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_095_job_ids.pkl
+2024-11-22 01:59:58 - submitted 1600 in 199.579701 seconds, 8.01684736465258 s/job
+2024-11-22 01:59:58 - submitted 98004 in total in 11585.851501 seconds, 8.458938041070272 s/job
+2024-11-22 01:59:59 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_158_job_ids.pkl
+2024-11-22 01:59:59 - submitted 0 in 0.139463 seconds, 0.0 s/job
+2024-11-22 01:59:59 - submitted 98004 in total in 11585.990964 seconds, 8.458836219061286 s/job
+2024-11-22 02:03:23 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_077_job_ids.pkl
+2024-11-22 02:03:23 - submitted 1600 in 204.070143 seconds, 7.840441411363151 s/job
+2024-11-22 02:03:23 - submitted 99604 in total in 11790.061107 seconds, 8.448132634432495 s/job
+2024-11-22 02:06:44 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_132_job_ids.pkl
+2024-11-22 02:06:44 - submitted 1600 in 201.764594 seconds, 7.930033551872833 s/job
+2024-11-22 02:06:44 - submitted 101204 in total in 11991.825701 seconds, 8.439415525490883 s/job
+2024-11-22 02:10:07 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_051_job_ids.pkl
+2024-11-22 02:10:07 - submitted 1600 in 202.070984 seconds, 7.918009643581485 s/job
+2024-11-22 02:10:07 - submitted 102804 in total in 12193.896685 seconds, 8.430775055398135 s/job
+2024-11-22 02:12:42 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_015_job_ids.pkl
+2024-11-22 02:12:42 - submitted 1203 in 155.5563 seconds, 7.733534418085285 s/job
+2024-11-22 02:12:42 - submitted 104007 in total in 12349.452985 seconds, 8.421992466089785 s/job
+2024-11-22 02:16:07 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_150_job_ids.pkl
+2024-11-22 02:16:07 - submitted 1600 in 204.793262 seconds, 7.812757042758565 s/job
+2024-11-22 02:16:07 - submitted 105607 in total in 12554.246247 seconds, 8.412054210362184 s/job
+2024-11-22 02:19:32 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_033_job_ids.pkl
+2024-11-22 02:19:32 - submitted 1600 in 204.953727 seconds, 7.806640178834123 s/job
+2024-11-22 02:19:32 - submitted 107207 in total in 12759.199974 seconds, 8.402329316764419 s/job
+2024-11-22 02:22:54 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_114_job_ids.pkl
+2024-11-22 02:22:54 - submitted 1600 in 202.594572 seconds, 7.8975462383069175 s/job
+2024-11-22 02:22:54 - submitted 108807 in total in 12961.794546 seconds, 8.394439490138174 s/job
+2024-11-22 02:26:17 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_141_job_ids.pkl
+2024-11-22 02:26:17 - submitted 1600 in 203.024004 seconds, 7.880841518621612 s/job
+2024-11-22 02:26:17 - submitted 110407 in total in 13164.81855 seconds, 8.386518931550333 s/job
+2024-11-22 02:29:41 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_060_job_ids.pkl
+2024-11-22 02:29:41 - submitted 1600 in 203.604151 seconds, 7.858385952062441 s/job
+2024-11-22 02:29:41 - submitted 112007 in total in 13368.422701 seconds, 8.378475344860357 s/job
+2024-11-22 02:29:41 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_024_job_ids.pkl
+2024-11-22 02:29:41 - submitted 0 in 0.126024 seconds, 0.0 s/job
+2024-11-22 02:29:41 - submitted 112007 in total in 13368.548725 seconds, 8.378396361793564 s/job
+2024-11-22 02:33:08 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_105_job_ids.pkl
+2024-11-22 02:33:08 - submitted 1600 in 207.077779 seconds, 7.726565388746999 s/job
+2024-11-22 02:33:08 - submitted 113607 in total in 13575.626504 seconds, 8.368453563931373 s/job
+2024-11-22 02:33:08 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_006_job_ids.pkl
+2024-11-22 02:33:08 - submitted 0 in 0.136672 seconds, 0.0 s/job
+2024-11-22 02:33:08 - submitted 113607 in total in 13575.763176 seconds, 8.368369315755364 s/job
+2024-11-22 02:36:35 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_042_job_ids.pkl
+2024-11-22 02:36:35 - submitted 1600 in 206.413746 seconds, 7.751421748820934 s/job
+2024-11-22 02:36:35 - submitted 115207 in total in 13782.176922 seconds, 8.359129377892337 s/job
+2024-11-22 02:40:03 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_123_job_ids.pkl
+2024-11-22 02:40:03 - submitted 1600 in 208.236991 seconds, 7.683553206932385 s/job
+2024-11-22 02:40:03 - submitted 116807 in total in 13990.413913 seconds, 8.349073924929558 s/job
+2024-11-22 02:43:34 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_110_job_ids.pkl
+2024-11-22 02:43:34 - submitted 1600 in 211.200382 seconds, 7.575743873417805 s/job
+2024-11-22 02:43:34 - submitted 118407 in total in 14201.614295 seconds, 8.337573288530155 s/job
+2024-11-22 02:47:05 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_099_job_ids.pkl
+2024-11-22 02:47:05 - submitted 1590 in 210.905843 seconds, 7.5389091994004165 s/job
+2024-11-22 02:47:05 - submitted 119997 in total in 14412.520138 seconds, 8.325886024860866 s/job
+2024-11-22 02:47:05 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_101_job_ids.pkl
+2024-11-22 02:47:05 - submitted 0 in 0.133608 seconds, 0.0 s/job
+2024-11-22 02:47:05 - submitted 119997 in total in 14412.653746 seconds, 8.325808842337812 s/job
+2024-11-22 02:50:07 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_020_job_ids.pkl
+2024-11-22 02:50:07 - submitted 1392 in 181.489585 seconds, 7.669861606659136 s/job
+2024-11-22 02:50:07 - submitted 121389 in total in 14594.143331 seconds, 8.317651625508763 s/job
+2024-11-22 02:50:07 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_002_job_ids.pkl
+2024-11-22 02:50:07 - submitted 0 in 0.126588 seconds, 0.0 s/job
+2024-11-22 02:50:07 - submitted 121389 in total in 14594.269919 seconds, 8.31757947973581 s/job
+2024-11-22 02:53:38 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_136_job_ids.pkl
+2024-11-22 02:53:38 - submitted 1600 in 211.588018 seconds, 7.561864868926557 s/job
+2024-11-22 02:53:38 - submitted 122989 in total in 14805.857937 seconds, 8.306779689723292 s/job
+2024-11-22 02:57:12 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_091_job_ids.pkl
+2024-11-22 02:57:12 - submitted 1600 in 213.953016 seconds, 7.478277380301104 s/job
+2024-11-22 02:57:12 - submitted 124589 in total in 15019.810953 seconds, 8.294977905505199 s/job
+2024-11-22 03:00:47 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_172_job_ids.pkl
+2024-11-22 03:00:47 - submitted 1600 in 214.082205 seconds, 7.4737645756217805 s/job
+2024-11-22 03:00:47 - submitted 126189 in total in 15233.893158 seconds, 8.283437378168331 s/job
+2024-11-22 03:04:00 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_019_job_ids.pkl
+2024-11-22 03:04:00 - submitted 1473 in 193.74254 seconds, 7.602873380311831 s/job
+2024-11-22 03:04:00 - submitted 127662 in total in 15427.635698 seconds, 8.274890754423879 s/job
+2024-11-22 03:07:34 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_073_job_ids.pkl
+2024-11-22 03:07:34 - submitted 1600 in 213.733861 seconds, 7.485945336476189 s/job
+2024-11-22 03:07:34 - submitted 129262 in total in 15641.369559 seconds, 8.264110090386746 s/job
+2024-11-22 03:11:14 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_154_job_ids.pkl
+2024-11-22 03:11:14 - submitted 1600 in 220.16525 seconds, 7.267268563045259 s/job
+2024-11-22 03:11:14 - submitted 130862 in total in 15861.534809 seconds, 8.25027348083286 s/job
+2024-11-22 03:14:48 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_118_job_ids.pkl
+2024-11-22 03:14:48 - submitted 1600 in 213.985741 seconds, 7.477133721727749 s/job
+2024-11-22 03:14:48 - submitted 132462 in total in 16075.52055 seconds, 8.239982001702582 s/job
+2024-11-22 03:18:20 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_037_job_ids.pkl
+2024-11-22 03:18:20 - submitted 1600 in 212.198919 seconds, 7.540094961558216 s/job
+2024-11-22 03:18:20 - submitted 134062 in total in 16287.719469 seconds, 8.230863765498711 s/job
+2024-11-22 03:21:54 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_064_job_ids.pkl
+2024-11-22 03:21:54 - submitted 1594 in 213.197935 seconds, 7.476620259009544 s/job
+2024-11-22 03:21:54 - submitted 135656 in total in 16500.917404 seconds, 8.221118661385185 s/job
+2024-11-22 03:25:30 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_145_job_ids.pkl
+2024-11-22 03:25:30 - submitted 1600 in 215.999189 seconds, 7.407435219583163 s/job
+2024-11-22 03:25:30 - submitted 137256 in total in 16716.916593 seconds, 8.210605062028856 s/job
+2024-11-22 03:28:53 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_181_job_ids.pkl
+2024-11-22 03:28:53 - submitted 1600 in 203.761402 seconds, 7.852321314514708 s/job
+2024-11-22 03:28:53 - submitted 138856 in total in 16920.677995 seconds, 8.20629055413923 s/job
+2024-11-22 03:32:14 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_109_job_ids.pkl
+2024-11-22 03:32:14 - submitted 1600 in 200.961911 seconds, 7.961707728784487 s/job
+2024-11-22 03:32:14 - submitted 140456 in total in 17121.639906 seconds, 8.203419810901378 s/job
+2024-11-22 03:35:36 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_028_job_ids.pkl
+2024-11-22 03:35:36 - submitted 1600 in 201.724183 seconds, 7.9316221595503995 s/job
+2024-11-22 03:35:36 - submitted 142056 in total in 17323.364089 seconds, 8.200254827536806 s/job
+2024-11-22 03:35:36 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_082_job_ids.pkl
+2024-11-22 03:35:36 - submitted 0 in 0.13716 seconds, 0.0 s/job
+2024-11-22 03:35:36 - submitted 142056 in total in 17323.501249 seconds, 8.200189901461183 s/job
+2024-11-22 03:38:59 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_163_job_ids.pkl
+2024-11-22 03:38:59 - submitted 1600 in 203.065646 seconds, 7.879225420532236 s/job
+2024-11-22 03:38:59 - submitted 143656 in total in 17526.566895 seconds, 8.196471154940353 s/job
+2024-11-22 03:42:26 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_127_job_ids.pkl
+2024-11-22 03:42:26 - submitted 1600 in 206.585187 seconds, 7.744988995750213 s/job
+2024-11-22 03:42:26 - submitted 145256 in total in 17733.152082 seconds, 8.191211541429332 s/job
+2024-11-22 03:45:52 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_046_job_ids.pkl
+2024-11-22 03:45:52 - submitted 1600 in 205.762808 seconds, 7.775943648669491 s/job
+2024-11-22 03:45:52 - submitted 146856 in total in 17938.91489 seconds, 8.18644833873784 s/job
+2024-11-22 03:49:18 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_169_job_ids.pkl
+2024-11-22 03:49:18 - submitted 1600 in 206.788711 seconds, 7.737366282050087 s/job
+2024-11-22 03:49:18 - submitted 148456 in total in 18145.703601 seconds, 8.181330592869303 s/job
+2024-11-22 03:52:45 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_088_job_ids.pkl
+2024-11-22 03:52:45 - submitted 1600 in 206.560234 seconds, 7.745924610058294 s/job
+2024-11-22 03:52:45 - submitted 150056 in total in 18352.263835 seconds, 8.176429967938066 s/job
+2024-11-22 03:56:07 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_178_job_ids.pkl
+2024-11-22 03:56:07 - submitted 1600 in 201.702922 seconds, 7.932458211983662 s/job
+2024-11-22 03:56:07 - submitted 151656 in total in 18553.966757 seconds, 8.173777714826592 s/job
+2024-11-22 03:59:30 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_079_job_ids.pkl
+2024-11-22 03:59:30 - submitted 1600 in 203.73333 seconds, 7.8534032698528025 s/job
+2024-11-22 03:59:30 - submitted 153256 in total in 18757.700087 seconds, 8.17029802636699 s/job
+2024-11-22 04:02:56 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_134_job_ids.pkl
+2024-11-22 04:02:56 - submitted 1600 in 205.556963 seconds, 7.783730488370759 s/job
+2024-11-22 04:02:56 - submitted 154856 in total in 18963.25705 seconds, 8.166107730950154 s/job
+2024-11-22 04:06:24 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_053_job_ids.pkl
+2024-11-22 04:06:24 - submitted 1600 in 208.224819 seconds, 7.684002357086933 s/job
+2024-11-22 04:06:24 - submitted 156456 in total in 19171.481869 seconds, 8.160871500130984 s/job
+2024-11-22 04:09:26 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_017_job_ids.pkl
+2024-11-22 04:09:26 - submitted 1376 in 182.34837 seconds, 7.545995612683568 s/job
+2024-11-22 04:09:26 - submitted 157832 in total in 19353.830239 seconds, 8.155078248126408 s/job
+2024-11-22 04:12:59 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_170_job_ids.pkl
+2024-11-22 04:12:59 - submitted 1600 in 212.723739 seconds, 7.521492464928891 s/job
+2024-11-22 04:12:59 - submitted 159432 in total in 19566.553978 seconds, 8.14819002770034 s/job
+2024-11-22 04:16:27 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_152_job_ids.pkl
+2024-11-22 04:16:27 - submitted 1600 in 207.532759 seconds, 7.7096262185768945 s/job
+2024-11-22 04:16:27 - submitted 161032 in total in 19774.086737 seconds, 8.143587218047712 s/job
+2024-11-22 04:20:09 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_071_job_ids.pkl
+2024-11-22 04:20:09 - submitted 1600 in 221.887346 seconds, 7.210866364592057 s/job
+2024-11-22 04:20:09 - submitted 162632 in total in 19995.974083 seconds, 8.133237186892787 s/job
+2024-11-22 04:23:37 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_116_job_ids.pkl
+2024-11-22 04:23:37 - submitted 1600 in 208.44834 seconds, 7.675762733346785 s/job
+2024-11-22 04:23:37 - submitted 164232 in total in 20204.422423 seconds, 8.128517438491293 s/job
+2024-11-22 04:27:03 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_035_job_ids.pkl
+2024-11-22 04:27:03 - submitted 1600 in 205.994371 seconds, 7.767202531956565 s/job
+2024-11-22 04:27:03 - submitted 165832 in total in 20410.416794 seconds, 8.12487082815228 s/job
+2024-11-22 04:30:29 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_143_job_ids.pkl
+2024-11-22 04:30:29 - submitted 1600 in 205.813567 seconds, 7.774025897913717 s/job
+2024-11-22 04:30:29 - submitted 167432 in total in 20616.230361 seconds, 8.121368313614372 s/job
+2024-11-22 04:30:29 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_062_job_ids.pkl
+2024-11-22 04:30:29 - submitted 0 in 0.13484 seconds, 0.0 s/job
+2024-11-22 04:30:29 - submitted 167432 in total in 20616.365201 seconds, 8.121315196331441 s/job
+2024-11-22 04:33:58 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_107_job_ids.pkl
+2024-11-22 04:33:58 - submitted 1600 in 209.002574 seconds, 7.65540810994988 s/job
+2024-11-22 04:33:58 - submitted 169032 in total in 20825.367775 seconds, 8.11663937109029 s/job
+2024-11-22 04:37:14 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_026_job_ids.pkl
+2024-11-22 04:37:14 - submitted 1517 in 196.14203 seconds, 7.734191391819489 s/job
+2024-11-22 04:37:14 - submitted 170549 in total in 21021.509805 seconds, 8.113070925069076 s/job
+2024-11-22 04:40:42 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_161_job_ids.pkl
+2024-11-22 04:40:42 - submitted 1600 in 207.722644 seconds, 7.7025786365399815 s/job
+2024-11-22 04:40:42 - submitted 172149 in total in 21229.232449 seconds, 8.109054362354446 s/job
+2024-11-22 04:44:05 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_080_job_ids.pkl
+2024-11-22 04:44:05 - submitted 1598 in 203.473028 seconds, 7.853620775722668 s/job
+2024-11-22 04:44:05 - submitted 173747 in total in 21432.705477 seconds, 8.106629384071576 s/job
+2024-11-22 04:47:32 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_125_job_ids.pkl
+2024-11-22 04:47:32 - submitted 1600 in 206.836337 seconds, 7.735584681138499 s/job
+2024-11-22 04:47:32 - submitted 175347 in total in 21639.541814 seconds, 8.103082842842673 s/job
+2024-11-22 04:47:32 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_044_job_ids.pkl
+2024-11-22 04:47:32 - submitted 0 in 0.129975 seconds, 0.0 s/job
+2024-11-22 04:47:32 - submitted 175347 in total in 21639.671789 seconds, 8.103034173056791 s/job
+2024-11-22 04:50:59 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_130_job_ids.pkl
+2024-11-22 04:50:59 - submitted 1600 in 206.256336 seconds, 7.757337452169227 s/job
+2024-11-22 04:50:59 - submitted 176947 in total in 21845.928125 seconds, 8.099770309026411 s/job
+2024-11-22 04:54:22 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_031_job_ids.pkl
+2024-11-22 04:54:22 - submitted 1600 in 203.135681 seconds, 7.876508903425981 s/job
+2024-11-22 04:54:22 - submitted 178547 in total in 22049.063806 seconds, 8.097713425429598 s/job
+2024-11-22 04:57:48 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_112_job_ids.pkl
+2024-11-22 04:57:48 - submitted 1600 in 206.154208 seconds, 7.761180407241554 s/job
+2024-11-22 04:57:48 - submitted 180147 in total in 22255.218014 seconds, 8.09459605772793 s/job
+2024-11-22 05:00:33 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_022_job_ids.pkl
+2024-11-22 05:00:33 - submitted 1290 in 164.663917 seconds, 7.834138914599001 s/job
+2024-11-22 05:00:33 - submitted 181437 in total in 22419.881931 seconds, 8.092683117529125 s/job
+2024-11-22 05:03:58 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_103_job_ids.pkl
+2024-11-22 05:03:58 - submitted 1600 in 205.841712 seconds, 7.7729629454306135 s/job
+2024-11-22 05:03:58 - submitted 183037 in total in 22625.723643 seconds, 8.089774404038936 s/job
+2024-11-22 05:03:59 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_004_job_ids.pkl
+2024-11-22 05:03:59 - submitted 0 in 0.146081 seconds, 0.0 s/job
+2024-11-22 05:03:59 - submitted 183037 in total in 22625.869724 seconds, 8.089722173457345 s/job
+2024-11-22 05:07:22 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_040_job_ids.pkl
+2024-11-22 05:07:22 - submitted 1600 in 203.640099 seconds, 7.856998733829922 s/job
+2024-11-22 05:07:22 - submitted 184637 in total in 22829.509823 seconds, 8.087646271493053 s/job
+2024-11-22 05:10:48 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_121_job_ids.pkl
+2024-11-22 05:10:48 - submitted 1599 in 206.0777 seconds, 7.759209269125189 s/job
+2024-11-22 05:10:48 - submitted 186236 in total in 23035.587523 seconds, 8.08470805504968 s/job
+2024-11-22 05:14:13 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_057_job_ids.pkl
+2024-11-22 05:14:13 - submitted 1600 in 204.430992 seconds, 7.826601946929847 s/job
+2024-11-22 05:14:13 - submitted 187836 in total in 23240.018515 seconds, 8.082437622791197 s/job
+2024-11-22 05:14:13 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_138_job_ids.pkl
+2024-11-22 05:14:13 - submitted 0 in 0.130288 seconds, 0.0 s/job
+2024-11-22 05:14:13 - submitted 187836 in total in 23240.148803 seconds, 8.082392311350125 s/job
+2024-11-22 05:17:38 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_093_job_ids.pkl
+2024-11-22 05:17:38 - submitted 1600 in 205.088379 seconds, 7.801514682604225 s/job
+2024-11-22 05:17:38 - submitted 189436 in total in 23445.237182 seconds, 8.079935320314815 s/job
+2024-11-22 05:21:05 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_174_job_ids.pkl
+2024-11-22 05:21:05 - submitted 1600 in 206.649446 seconds, 7.742580640646866 s/job
+2024-11-22 05:21:05 - submitted 191036 in total in 23651.886628 seconds, 8.076987810936162 s/job
+2024-11-22 05:24:30 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_075_job_ids.pkl
+2024-11-22 05:24:30 - submitted 1600 in 205.091414 seconds, 7.801399233611994 s/job
+2024-11-22 05:24:30 - submitted 192636 in total in 23856.978042 seconds, 8.074618657101752 s/job
+2024-11-22 05:27:53 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_156_job_ids.pkl
+2024-11-22 05:27:53 - submitted 1600 in 203.110251 seconds, 7.877495065475548 s/job
+2024-11-22 05:27:53 - submitted 194236 in total in 24060.088293 seconds, 8.072954580823824 s/job
+2024-11-22 05:31:18 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_039_job_ids.pkl
+2024-11-22 05:31:18 - submitted 1600 in 205.365474 seconds, 7.7909882748840245 s/job
+2024-11-22 05:31:18 - submitted 195836 in total in 24265.453767 seconds, 8.070568219347654 s/job
+2024-11-22 05:34:44 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_066_job_ids.pkl
+2024-11-22 05:34:44 - submitted 1600 in 205.76762 seconds, 7.77576180353352 s/job
+2024-11-22 05:34:44 - submitted 197436 in total in 24471.221387 seconds, 8.068089323276899 s/job
+2024-11-22 05:38:10 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_147_job_ids.pkl
+2024-11-22 05:38:10 - submitted 1600 in 206.536132 seconds, 7.74682853070958 s/job
+2024-11-22 05:38:10 - submitted 199036 in total in 24677.757519 seconds, 8.065400587827213 s/job
+2024-11-22 05:41:40 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_183_job_ids.pkl
+2024-11-22 05:41:40 - submitted 1600 in 209.424137 seconds, 7.639998058103494 s/job
+2024-11-22 05:41:40 - submitted 200636 in total in 24887.181656 seconds, 8.06182085112193 s/job
+2024-11-22 05:45:07 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_084_job_ids.pkl
+2024-11-22 05:45:07 - submitted 1600 in 206.694133 seconds, 7.740906704884555 s/job
+2024-11-22 05:45:07 - submitted 202236 in total in 25093.875789 seconds, 8.059177534012141 s/job
+2024-11-22 05:48:35 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_165_job_ids.pkl
+2024-11-22 05:48:35 - submitted 1600 in 208.777552 seconds, 7.663659165809167 s/job
+2024-11-22 05:48:35 - submitted 203836 in total in 25302.653341 seconds, 8.055914028182471 s/job
+2024-11-22 05:52:04 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_048_job_ids.pkl
+2024-11-22 05:52:04 - submitted 1600 in 209.151151 seconds, 7.649969853620361 s/job
+2024-11-22 05:52:04 - submitted 205436 in total in 25511.804492 seconds, 8.052586012268192 s/job
+2024-11-22 05:55:32 - Job IDs written to ../my-private-bucket/run_output_20241115_131005/job_ids/TEAK_large_129_job_ids.pkl
+2024-11-22 05:55:32 - submitted 1600 in 207.511614 seconds, 7.710411813384093 s/job
+2024-11-22 05:55:32 - submitted 207036 in total in 25719.316106 seconds, 8.04982524211447 s/job
+2024-11-22 12:12:07 - No such comm target registered: jupyter.widget.control
+2024-11-22 12:12:07 - No such comm: 8ad8a4bf-13d7-4687-94bd-ed42d372d431
+2024-11-22 13:19:25 - No such comm target registered: jupyter.widget.control
+2024-11-22 13:19:25 - No such comm: bde25cac-72d6-47a8-8a73-c7a187a1bc23
+2024-11-22 13:42:54 - No such comm target registered: jupyter.widget.control
+2024-11-22 13:42:54 - No such comm: 4f9ddefa-964f-4e67-88c1-7407d1d9e6d1
